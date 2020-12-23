@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Play-Bold";
+    src: url("../fonts/Play-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Play-Regular";
+    src: url("../fonts/Play-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SovMod";
+    src: url("../fonts/SovMod.ttf") format("truetype"),
+         url("../fonts/SovMod.otf") format("opentype");
+}
