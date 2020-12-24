@@ -1,0 +1,151 @@
+/* MAIN STYLES */
+html, body {
+    min-width: 100%;
+    font-family: Play-Regular;
+}
+body {
+    width: 100%;
+    overflow: scroll;
+    background-color: #61523D;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER STYLES */
+
+.top-bar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-top: 30px;
+}
+
+.logo {
+    display: inline-block;
+    width: 12.9%;
+}
+
+.languages {
+    position: relative;
+    margin-top: 22px;
+}
+
+.languages a {
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.languages a:first-of-type {
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.languages a:last-of-type {
+    float: right;
+}
+
+.languages hr {
+    border: 1px solid #C4C4C4;
+    transform: rotate(121.89deg);
+    width: 111.68px;
+    position: absolute;
+    top: 0px;
+    right: -15px;
+}
+
+.menu-box {
+    margin-top: 15px;
+}
+
+.menu-icon {
+    display: inline-block;
+    width: 19px;
+    height: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+.menu-icon span:nth-child(1) {
+    top: 0px;
+    transform-origin: left center;
+}
+.menu-icon span:nth-child(2) {
+    bottom: -1px;
+    transform-origin: left center;
+}
+
+.top-bar button {
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px 0px 0px 14px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+header h1 {
+    text-align: center;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.first-line {
+    margin-top: 170px;
+}
+
+.text-in-ellipse {
+    position: relative;
+}
+
+.rainbow-ellipse {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 167px);
+}
+
+.planet-box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 90px 0px;
+}
+
+.planet {
+    display: inline-block;
+    width: 22.5%;
+    text-align: center;
+}

@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
 
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+
     <title>Title</title>
 </head>
 <body>
     <header>
         <div class="top-bar">
-            <div class="logo">
+            <a href=" " class="logo">
                 <img src="images/white-logo.png">
-            </div>
+            </a>
             <div class="languages">
                 <a href=" ">
                     РУ
@@ -20,60 +24,31 @@
                     DE
                 </a>
             </div>
-            <div class="menu-icon">
-                <span></span>
-                <span></span>
-            </div>
-            <button id="open-menu" class="dropdown-button">
-                МЕНЮ
-            </button>
-            <div id="dropdown" class="dropdown-content">
-                <div class="top">
-                    <button id="close-menu">
-                        НАЗАД
-                    </button>
-                    <ul>
-                        <li>
-                            проекты
-                        </li>
-                        <li>
-                            мероприятия
-                        </li>
-                        <li>
-                            видео
-                        </li>
-                        <li>
-                            подкасты
-                        </li>
-                        <li>
-                            организаторы
-                        </li>
-                    </ul>
-                    <div class="stars-and-planet">
-                        <div class="red-star">
-                            <img src="images/red-star.png">
-                        </div>
-                        <div class="orange-star">
-                            <img src="images/orange-star.png">
-                        </div>
-                        <div class="globe">
-                            <img src="images/globe.png">
-                        </div>
-                        <div class="yellow-star">
-                            <img src="images/yellow-star.png">
-                        </div>
-                    </div>
+            <div class="menu-box">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
                 </div>
+                <button id="open-menu" class="dropdown-button">
+                    МЕНЮ
+                </button>
             </div>
         </div>
-        <h1>
+        <h1 class="first-line">
             Просвещение на тему
         </h1>
-        <h1 class="lgbt">
-            ЛГБТК
-        </h1>
-        <div class="planet">
-            <img src="images/planet.png">
+        <div class="text-in-ellipse">
+            <h1 class="lgbt">
+                ЛГБТК
+            </h1>
+            <div class="rainbow-ellipse">
+                <img src="images/rainbow-ellipse.png">
+            </div>
+        </div>
+        <div class="planet-box">
+            <div class="planet">
+                <img src="images/planet.png">
+            </div>
         </div>
         <h1>
             в университетах России
@@ -81,6 +56,44 @@
         <a href="#about-project">
             scroll
         </a>
+        <div id="dropdown" class="dropdown-content">
+            <div class="top">
+                <button id="close-menu">
+                    НАЗАД
+                </button>
+                <ul>
+                    <li>
+                        проекты
+                    </li>
+                    <li>
+                        мероприятия
+                    </li>
+                    <li>
+                        видео
+                    </li>
+                    <li>
+                        подкасты
+                    </li>
+                    <li>
+                        организаторы
+                    </li>
+                </ul>
+                <div class="stars-and-planet">
+                    <div class="red-star">
+                        <img src="images/red-star.png">
+                    </div>
+                    <div class="orange-star">
+                        <img src="images/orange-star.png">
+                    </div>
+                    <div class="globe">
+                        <img src="images/globe.png">
+                    </div>
+                    <div class="yellow-star">
+                        <img src="images/yellow-star.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <section class="about-project">
         <div class="text-and-orange-block">
