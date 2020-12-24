@@ -19,11 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eabadf-5a26-49c7-8caf-aaa1de4a4db6" name="Default Changelist" comment="updated logo in html">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+    <list default="true" id="b0eabadf-5a26-49c7-8caf-aaa1de4a4db6" name="Default Changelist" comment="updated css">
+      <change afterPath="$PROJECT_DIR$/images/aa-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ekb-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/globe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/orange-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/planet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/q-rainbow-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rainbow-ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/red-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/russia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-play-symbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/yellow-star.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608736046300</updated>
       <workItem from="1608736047364" duration="14435000" />
-      <workItem from="1608806996362" duration="10146000" />
+      <workItem from="1608806996362" duration="10641000" />
     </task>
     <task id="LOCAL-00001" summary="created html doc">
       <created>1608736101572</created>
@@ -121,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608756182220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated css">
+      <created>1608818260988</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608818260988</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +164,8 @@
     <MESSAGE value="added stylesheets and fonts" />
     <MESSAGE value="updated html" />
     <MESSAGE value="updated logo in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated logo in html" />
+    <MESSAGE value="updated css" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1608736779050">
