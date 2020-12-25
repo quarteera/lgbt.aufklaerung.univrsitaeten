@@ -19,21 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eabadf-5a26-49c7-8caf-aaa1de4a4db6" name="Default Changelist" comment="updated css">
-      <change afterPath="$PROJECT_DIR$/images/aa-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ekb-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/globe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/orange-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/planet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/q-rainbow-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rainbow-ellipse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/red-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/russia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/white-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/white-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/white-play-symbol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/white-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/yellow-star.png" afterDir="false" />
+    <list default="true" id="b0eabadf-5a26-49c7-8caf-aaa1de4a4db6" name="Default Changelist" comment="updated images">
+      <change afterPath="$PROJECT_DIR$/images/civil-society-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/scroll-ellipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-ellipse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ekb-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ekb-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608736046300</updated>
       <workItem from="1608736047364" duration="14435000" />
-      <workItem from="1608806996362" duration="10641000" />
+      <workItem from="1608806996362" duration="10679000" />
+      <workItem from="1608908541300" duration="6697000" />
+      <workItem from="1608929795239" duration="8953000" />
     </task>
     <task id="LOCAL-00001" summary="created html doc">
       <created>1608736101572</created>
@@ -138,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608818260988</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated images">
+      <created>1608818455052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608818455052</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,16 +167,17 @@
     <MESSAGE value="updated html" />
     <MESSAGE value="updated logo in html" />
     <MESSAGE value="updated css" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated css" />
+    <MESSAGE value="updated images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1608736779050">
+    <state x="395" y="91" key="#Inspections" timestamp="1608939487990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1608736779050" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608756185632">
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1608939487990" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608818461639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608756185632" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608818461639" />
   </component>
 </project>

@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="top-bar">
-            <a href=" " class="logo">
+            <a href=" " class="logo-top">
                 <img src="images/white-logo.png">
             </a>
             <div class="languages">
@@ -53,9 +53,15 @@
         <h1>
             в университетах России
         </h1>
-        <a href="#about-project">
-            scroll
-        </a>
+        <div class="scroll-box">
+            <a href="#about-project">
+                scroll
+            </a>
+            <div class="scroll-ellipse">
+                <img src="images/scroll-ellipse.png">
+            </div>
+        </div>
+
         <div id="dropdown" class="dropdown-content">
             <div class="top">
                 <button id="close-menu">
@@ -95,14 +101,13 @@
             </div>
         </div>
     </header>
-    <section class="about-project">
-        <div class="text-and-orange-block">
+    <section class="about-project" id="about-project">
             <div class="text">
                 <p>
-                    Quarteera e.V. - немецкая русскоговорящая общественная организация для ЛГБТИК+ мигрантов и наших
+                    <a href="" class="q-link">Quarteera e.V.</a> - немецкая русскоговорящая общественная организация для ЛГБТИК+ мигрантов и наших
                     друзей при поддержке МИДа Германии запустила с 1-ого августа 2020-ого года общеобразовательный проект
                     "Aufklärung über LSBTIQ an Hochschulen in Russland", который продлился включительно до 31-ого декабря
-                    2020-ого года. В кооперации с нашими партнёрами екатеринбургским Ресурсным центром для ЛГБТ, а также
+                    2020-ого года. В кооперации с нашими партнёрами <a href="" class="ekb-link">екатеринбургским Ресурсным центром для ЛГБТ</a>, а также
                     с некоммерческими организациями Челябинска и Уральского края мы провели ряд интернациональных
                     общеобразовательных мероприятий, посвященных просвещению на тему ЛГБТИК+ в российских университетах,
                     обменялись международным опытом и расширили сеть интернациональных кооперационных партнерских организаций.
@@ -117,16 +122,27 @@
                 </p>
             </div>
             <div class="orange-block">
-                O проектE
+                <div class="title-with-ellipse">
+                    <a href=" " class="title-about-project">
+                        O проекте
+                    </a>
+                    <a href=" " class="white-ellipse">
+                        <img src="images/white-ellipse.png">
+                    </a>
+                </div>
             </div>
-        </div>
     </section>
     <section class="motto">
-        <hr>
-        <h1>
-            Миру-мир, студенту-QUEER
-        </h1>
-        <hr>
+        <div class="motto-box">
+            <div class="motto-words">
+                <h1>
+                    Миру-мир, студенту-QUEER
+                </h1>
+            </div>
+            <div class="motto-background">
+                <img src="images/russia.png">
+            </div>
+        </div>
     </section>
     <section class="events">
         <h1>
@@ -288,25 +304,25 @@
             Организаторы
         </h1>
         <div class="organizations">
-            <a href=" " class="quarteera">
-                <img src="images/q-rainbow-logo.png">
-            </a>
             <a href=" " class="ekb">
                 <img src="images/ekb-logo.png">
             </a>
+            <a href=" " class="quarteera">
+                <img src="images/q-rainbow-logo.png">
+            </a>
+            <a href=" " class="cs-logo">
+                <img src="images/civil-society-logo.png">
+            </a>
             <a href=" " class="aa">
                 <img src="images/aa-logo.png">
-            </a>
-            <a href=" " class="placeholder">
-                <img src="">
             </a>
         </div>
     </section>
     <section class="links">
         <div class="links-box">
-            <div class="logo">
+            <a href=" " class="logo-bottom">
                 <img src="images/white-logo.png">
-            </div>
+            </a>
             <div class="orange-star">
                 <img src="images/orange-star.png">
             </div>
@@ -330,16 +346,18 @@
         </div>
     </section>
     <footer>
-        <p>
-            2020 all rights reserved
-        </p>
-        <hr>
-        <a href=" " class="impressum">
-            Impressum
-        </a>
-        <a href=" " class="datenschutz">
-            Datenschutzerklärung
-        </a>
+        <div class="footer-box">
+            <p>
+                Quarteera e.V. 2020
+            </p>
+            <hr>
+            <a href=" " class="impressum">
+                Impressum
+            </a>
+            <a href=" " class="datenschutz">
+                Datenschutzerklärung
+            </a>
+        </div>
     </footer>
 </body>
 </html>

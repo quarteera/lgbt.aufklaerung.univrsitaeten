@@ -1,7 +1,9 @@
 /* MAIN STYLES */
 html, body {
-    min-width: 100%;
+    min-width: 1440px;
+    max-width: 100%;
     font-family: Play-Regular;
+    overflow: scroll;
 }
 body {
     width: 100%;
@@ -11,6 +13,7 @@ body {
 
 img {
     max-width: 100%;
+    width: 100%;
 }
 
 /* HEADER STYLES */
@@ -25,7 +28,7 @@ img {
     margin-top: 30px;
 }
 
-.logo {
+.logo-top {
     display: inline-block;
     width: 12.9%;
 }
@@ -148,4 +151,290 @@ header h1 {
     display: inline-block;
     width: 22.5%;
     text-align: center;
+}
+
+.scroll-box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+    position: relative;
+}
+
+.scroll-box a {
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.scroll-ellipse {
+    display: inline-block;
+    position: absolute;
+    top: -48px;
+    left: calc(50% - 157px);
+    z-index: 0;
+}
+
+/* ABOUT PROJECT SECTION STYLES */
+
+.about-project {
+    display: inline-block;
+    width: 100%;
+    margin-top: 414px;
+}
+
+.text {
+    display: inline-flex;
+    margin-top: 128px;
+    margin-right: 1.87%;
+    margin-left: 9.5%;
+    width: 36%;
+    max-height: 600px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text p {
+    font-family: Play-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.text a {
+    text-decoration: none;
+    background-color: #D74218;
+    color: #FFFFFF;
+}
+
+.orange-block {
+    background-color: #D74218;
+    display: flex;
+    width: 48.95%;
+    float: right;
+    height: 856px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-with-ellipse {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.orange-block .title-about-project {
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.white-ellipse {
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 62px);
+    width: 85.5%;
+    right: 7.25%;
+}
+
+/* MOTTO SECTION STYLES */
+
+.motto {
+    display: inline-block;
+    width: 100%;
+    margin-top: 170px;
+    padding-bottom: 170px;
+    text-align: center;
+}
+
+.motto-box {
+    display: inline-block;
+    width: 79.5%;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+}
+
+.motto-background {
+    display: inline-block;
+    width: 100%;
+    padding: 157px 0px;
+}
+
+.motto-words {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+.motto-words h1 {
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 59px;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* EVENTS SECTION STYLES */
+
+.events {
+    display: none;
+}
+
+/* VIDEOS SECTION STYLES */
+
+.videos {
+    display: none;
+}
+
+/* PODCASTS SECTION STYLES */
+
+.podcasts {
+    display: none;
+}
+
+/* ORG SECTION STYLES */
+
+.org {
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 208px 0px;
+}
+
+.org h1 {
+    text-align: center;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #D74218;
+    margin-bottom: 100px;
+}
+
+.organizations {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76.95%;
+    margin-left: 11.39%;
+}
+
+.organizations a {
+    display: inline-block;
+    width: 21.2%;
+}
+
+.organizations a:first-of-type {
+    width: 14.45%;
+}
+
+/* LINKS SECTION STYLES */
+
+.links {
+    display: inline-block;
+    width: 100%;
+}
+
+.links-box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76.95%;
+    margin-left: 11.39%;
+    margin-top: 357px;
+    vertical-align: top;
+}
+
+.logo-bottom {
+    width: 12.9%;
+    margin-top: 13px;
+}
+
+.orange-star {
+    width: 6.77%;
+}
+
+.social-networks {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 62.64%;
+    margin-top: 28px;
+}
+
+.social-networks a {
+    text-decoration: none;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer-box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 76.95%;
+    margin-left: 11.39%;
+    margin-top: 100px;
+    margin-bottom: 78px;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-box p {
+    display: inline-block;
+}
+
+.footer-box hr {
+    width: 45.6%;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+.footer-box a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
