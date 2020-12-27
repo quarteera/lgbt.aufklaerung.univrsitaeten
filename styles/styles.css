@@ -708,6 +708,23 @@ footer {
     background-color: black;
 }
 
+.coming-soon-top {
+    display: inline-block;
+    background-color: #ffffff;
+    overflow: hidden;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.coming-soon-bottom {
+    display: inline-block;
+    background-color: #ffffff;
+    overflow: hidden;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 475px;
+}
+
 .big-orange-star {
     position: absolute;
     top: -17%;
