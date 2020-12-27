@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
 
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+
+    <!-- styles -->
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/fonts.css">
@@ -10,9 +14,9 @@
     <title>Title</title>
 </head>
 <body>
-    <header>
+    <header class="main-head">
         <div class="top-bar">
-            <a href=" " class="logo-top">
+            <a href="http://www.quarteera.de/" class="logo-top">
                 <img src="images/white-logo.png">
             </a>
             <div class="languages">
@@ -25,13 +29,64 @@
                 </a>
             </div>
             <div class="menu-box">
-                <div class="menu-icon">
-                    <span></span>
-                    <span></span>
-                </div>
-                <button id="open-menu" class="dropdown-button">
-                    МЕНЮ
+                <button id="open-menu" onclick="myfunction()">
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </button>
+                <div id="dropdown" class="dropdown-content">
+                    <div class="close-and-logo-box">
+                        <a href="http://www.quarteera.de/" class="logo-top">
+                            <img src="images/white-logo.png">
+                        </a>
+                        <button id="close-menu" class="close" onclick="closingFunction()">
+                            НАЗАД
+                        </button>
+                    </div>
+                    <div class="stars-and-planet">
+                        <div class="red-star">
+                            <img src="images/red-star.png">
+                        </div>
+                        <div class="orange-star-menu">
+                            <img src="images/orange-star.png">
+                        </div>
+                        <div class="globe">
+                            <img src="images/globe.png">
+                        </div>
+                        <div class="yellow-star">
+                            <img src="images/yellow-star.png">
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#about-project" class="menu-link-project" onclick="closingFunction()">
+                                проект
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" " class="menu-link-events">
+                                мероприятия
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" " class="menu-link-videos">
+                                видео
+                            </a>
+                        </li>
+                        <li>
+                            <a href=" " class="menu-link-podcasts">
+                                подкасты
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#org" class="menu-link-org" onclick="closingFunction()">
+                                организаторы
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <h1 class="first-line">
@@ -53,61 +108,23 @@
         <h1>
             в университетах России
         </h1>
-        <div class="scroll-box">
-            <a href="#about-project">
+        <div class="scroll-box" onclick="scrollFunction()">
+            <button class="scroll-button">
                 scroll
-            </a>
-            <div class="scroll-ellipse">
+            </button>
+            <div id="scroll" class="scroll-ellipse">
                 <img src="images/scroll-ellipse.png">
             </div>
         </div>
 
-        <div id="dropdown" class="dropdown-content">
-            <div class="top">
-                <button id="close-menu">
-                    НАЗАД
-                </button>
-                <ul>
-                    <li>
-                        проекты
-                    </li>
-                    <li>
-                        мероприятия
-                    </li>
-                    <li>
-                        видео
-                    </li>
-                    <li>
-                        подкасты
-                    </li>
-                    <li>
-                        организаторы
-                    </li>
-                </ul>
-                <div class="stars-and-planet">
-                    <div class="red-star">
-                        <img src="images/red-star.png">
-                    </div>
-                    <div class="orange-star">
-                        <img src="images/orange-star.png">
-                    </div>
-                    <div class="globe">
-                        <img src="images/globe.png">
-                    </div>
-                    <div class="yellow-star">
-                        <img src="images/yellow-star.png">
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
     <section class="about-project" id="about-project">
             <div class="text">
                 <p>
-                    <a href="" class="q-link">Quarteera e.V.</a> - немецкая русскоговорящая общественная организация для ЛГБТИК+ мигрантов и наших
+                    <a href="http://www.quarteera.de/" class="q-link">Quarteera e.V.</a> - немецкая русскоговорящая общественная организация для ЛГБТИК+ мигрантов и наших
                     друзей при поддержке МИДа Германии запустила с 1-ого августа 2020-ого года общеобразовательный проект
                     "Aufklärung über LSBTIQ an Hochschulen in Russland", который продлился включительно до 31-ого декабря
-                    2020-ого года. В кооперации с нашими партнёрами <a href="" class="ekb-link">екатеринбургским Ресурсным центром для ЛГБТ</a>, а также
+                    2020-ого года. В кооперации с нашими партнёрами <a href="https://center-r.com/" class="ekb-link">екатеринбургским Ресурсным центром для ЛГБТ</a>, а также
                     с некоммерческими организациями Челябинска и Уральского края мы провели ряд интернациональных
                     общеобразовательных мероприятий, посвященных просвещению на тему ЛГБТИК+ в российских университетах,
                     обменялись международным опытом и расширили сеть интернациональных кооперационных партнерских организаций.
@@ -123,10 +140,10 @@
             </div>
             <div class="orange-block">
                 <div class="title-with-ellipse">
-                    <a href=" " class="title-about-project">
+                    <a href="pages/about-project.html" class="title-about-project">
                         O проекте
                     </a>
-                    <a href=" " class="white-ellipse">
+                    <a href="pages/about-project.html" class="white-ellipse">
                         <img src="images/white-ellipse.png">
                     </a>
                 </div>
@@ -299,28 +316,28 @@
             </div>
         </div>
     </section>
-    <section class="org">
+    <section id="org" class="org">
         <h1>
             Организаторы
         </h1>
         <div class="organizations">
-            <a href=" " class="ekb">
+            <a href="https://center-r.com/" class="ekb">
                 <img src="images/ekb-logo.png">
             </a>
-            <a href=" " class="quarteera">
+            <a href="http://www.quarteera.de/" class="quarteera">
                 <img src="images/q-rainbow-logo.png">
             </a>
-            <a href=" " class="cs-logo">
+            <a href="https://civilsocietycooperation.net/?lang=ru" class="cs-logo">
                 <img src="images/civil-society-logo.png">
             </a>
-            <a href=" " class="aa">
+            <a href="https://germania.diplo.de/ru-ru" class="aa">
                 <img src="images/aa-logo.png">
             </a>
         </div>
     </section>
     <section class="links">
         <div class="links-box">
-            <a href=" " class="logo-bottom">
+            <a href="http://www.quarteera.de/" class="logo-bottom">
                 <img src="images/white-logo.png">
             </a>
             <div class="orange-star">
@@ -328,17 +345,17 @@
             </div>
             <ul class="social-networks">
                 <li>
-                    <a href=" " class="instagram">
+                    <a href="https://www.instagram.com/quarteera/?hl=ru" class="instagram">
                         instagram
                     </a>
                 </li>
                 <li>
-                    <a href=" " class="facebook">
+                    <a href="https://ru-ru.facebook.com/Quarteera/" class="facebook">
                         Facebook
                     </a>
                 </li>
                 <li>
-                    <a href=" " class="telegram">
+                    <a href="https://t.me/quarteera" class="telegram">
                         Telegram
                     </a>
                 </li>
@@ -351,10 +368,10 @@
                 Quarteera e.V. 2020
             </p>
             <hr>
-            <a href=" " class="impressum">
+            <a href="http://www.quarteera.de/impressum" class="impressum">
                 Impressum
             </a>
-            <a href=" " class="datenschutz">
+            <a href="http://www.quarteera.de/datenschutz" class="datenschutz">
                 Datenschutzerklärung
             </a>
         </div>

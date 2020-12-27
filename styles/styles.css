@@ -3,7 +3,6 @@ html, body {
     min-width: 1440px;
     max-width: 100%;
     font-family: Play-Regular;
-    overflow: scroll;
 }
 body {
     width: 100%;
@@ -48,6 +47,10 @@ img {
     text-decoration: none;
 }
 
+a:hover {
+    color: #D74218;
+}
+
 .languages a:first-of-type {
     margin-right: 40px;
     vertical-align: top;
@@ -66,25 +69,21 @@ img {
     right: -15px;
 }
 
-.menu-box {
-    margin-top: 15px;
-}
-
 .menu-icon {
     display: inline-block;
-    width: 19px;
-    height: 13px;
-    position: relative;
+    width: 32px;
     cursor: pointer;
+    padding: 19px 37px;
+    border: 2px solid transparent;
+    border-radius: 50%;
 }
+
 .menu-icon span {
     display: block;
-    position: absolute;
     height: 2px;
-    width: 100%;
+    width: calc(100% - 2px);
     background-color: #fff;
     opacity: 1;
-    left: 0;
     transform: rotate(0deg);
     transition: 0.25s ease-in-out;
 }
@@ -93,28 +92,188 @@ img {
     transform-origin: left center;
 }
 .menu-icon span:nth-child(2) {
-    bottom: -1px;
+    margin-top: 6px;
+    transform-origin: left center;
+}
+.menu-icon span:nth-child(3) {
+    margin-top: 6px;
     transform-origin: left center;
 }
 
-.top-bar button {
+.menu-icon:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.menu-icon span:hover {
+    background-color: #D74218;
+}
+
+.top-bar #open-menu {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+/* DROPDOWN MENU STYLES BEGIN */
+
+.dropdown-content {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+}
+
+.close-and-logo-box {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    margin-top: 30px;
+}
+
+.close {
     font-family: SovMod;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 18px;
-    color: #FFFFFF;
-    background-color: transparent;
     border-color: transparent;
-    padding: 0px 0px 0px 14px;
+    padding: 17px 15px;
     cursor: pointer;
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 50%;
 }
 
-.dropdown-content {
-    display: none;
+.close:hover {
+    color: #FFFFFF;
+    background-color: #D74218;
 }
 
-header h1 {
+.stars-and-planet {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30.9%;
+    margin-left: 11.5%;
+    position: relative;
+    padding-bottom: 121px;
+}
+
+.red-star {
+    display: inline-block;
+    width: 16.6%;
+    margin-top: 65px;
+}
+
+.orange-star-menu {
+    display: inline-block;
+    width: 16.6%;
+    position: absolute;
+    right: 20.23%;
+    top: 139px;
+}
+
+.globe {
+    display: inline-block;
+    width: 67.42%;
+    margin-top: 0px;
+}
+
+.yellow-star {
+    display: inline-block;
+    width: 22.25%;
+    margin-top: 24px;
+    margin-left: 6.97%;
+}
+
+.dropdown-content ul {
+    float: right;
+    margin-top: 32px;
+    margin-right: calc(17.98% - 169px);
+    display: flex;
+    flex-direction: column;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.dropdown-content ul li {
+    margin-bottom: 42px;
+   /* padding-bottom: 98px; */
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu-link-project {
+    padding: 27px 212px;
+}
+
+.menu-link-project:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #0A5180;
+}
+
+.menu-link-events {
+    padding: 27px 73px;
+}
+
+.menu-link-events:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #F2AC21;
+}
+
+.menu-link-videos {
+    padding: 27px 238px;
+}
+
+.menu-link-videos:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #DC570A;
+}
+
+.menu-link-podcasts {
+    padding: 27px 156px;
+}
+
+.menu-link-podcasts:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #683A92;
+}
+
+.menu-link-org {
+    padding: 27px 53px;
+}
+
+.menu-link-org:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: #D81C1C;
+}
+
+/* DROPDOWN MENU STYLES END */
+
+.main-head h1 {
     text-align: center;
     font-family: SovMod;
     font-style: normal;
@@ -161,7 +320,7 @@ header h1 {
     position: relative;
 }
 
-.scroll-box a {
+.scroll-button {
     font-family: SovMod;
     font-style: normal;
     font-weight: normal;
@@ -172,6 +331,9 @@ header h1 {
     color: #FFFFFF;
     position: relative;
     z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .scroll-ellipse {
@@ -244,10 +406,18 @@ header h1 {
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 38px 68px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.orange-block .title-about-project:hover {
+    color: #D74218;
+    background-color: #FFFFFF;
 }
 
 .white-ellipse {
-    display: inline-block;
+    display: none;
     position: absolute;
     top: calc(50% - 62px);
     width: 85.5%;
@@ -341,6 +511,7 @@ header h1 {
     justify-content: space-between;
     width: 76.95%;
     margin-left: 11.39%;
+    vertical-align: center;
 }
 
 .organizations a {
@@ -350,6 +521,11 @@ header h1 {
 
 .organizations a:first-of-type {
     width: 14.45%;
+}
+
+.aa img {
+    vertical-align: top;
+    margin-top: 10px;
 }
 
 /* LINKS SECTION STYLES */
@@ -397,6 +573,10 @@ header h1 {
     color: #FFFFFF;
 }
 
+.social-networks a:hover {
+    color: #D74218;
+}
+
 /* FOOTER STYLES */
 
 footer {
@@ -437,4 +617,160 @@ footer {
 .footer-box a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+/* PROJECT PAGE STYLES */
+
+.project-header h1 {
+    margin-top: 157px;
+    text-align: center;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 110px;
+    color: #FFFFFF;
+}
+
+.title-about {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 62px;
+}
+
+.title-about .left-part {
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.title-about .right-part {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.title-about .text-in-ellipse {
+    display: inline-block;
+    position: relative;
+    padding: 10px 14px;
+}
+
+.title-about .rainbow-ellipse {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 24px);
+    left: 0px;
+}
+
+.date-of-project {
+    display: inline-block;
+    float: right;
+    margin-right: 11.5%;
+    margin-top: 48px;
+    margin-bottom: 85px;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.video-and-greeting {
+    display: inline-block;
+    width: 77%;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    position: relative;
+    z-index: 1;
+}
+
+.vt {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.project-video-about {
+    width: 100%;
+    min-height: 543px;
+    position: relative;
+    background-color: black;
+}
+
+.big-orange-star {
+    position: absolute;
+    top: -17%;
+    left: -9%;
+}
+
+.big-play {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 105px);
+    padding: 20px 72px;
+    background-color: white;
+    color: black;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red-ticket {
+    position: absolute;
+    left: 0px;
+    top: 560px;
+    width: 30.25%;
+    z-index: 0;
+}
+
+.yellow-ticket {
+    position: absolute;
+    right: 10px;
+    top: 789px;
+    width: 34.375%;
+    z-index: 0;
+}
+
+.text-about {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 85px;
+}
+
+.text-about p {
+    position: relative;
+    z-index: 1;
+    font-family: Play-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.orange-ticket {
+    position: absolute;
+    z-index: 0;
+    width: 43.86%;
+    right: 7.4%;
+    top: 499px;
 }
